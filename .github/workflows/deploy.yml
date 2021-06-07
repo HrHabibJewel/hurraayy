@@ -29,20 +29,11 @@ jobs:
     environment: production
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v2
+    - uses: actions/setup-node@v1
       with:
-        node-version: ${{ env.NODE_VERSION }}
-    - name: npm install, build, and test
-      run: |
-        # Build and test the project, then
-        # deploy to Azure Web App.
-        npm install
-        npm run build --if-present
-        npm run test --if-present
-    - name: add process.json
-      run: |
-        echo '{ script: "npm start", env: { PM2_SERVE_SPA: "true", PM2_SERVE_HOMEPAGE: "/" } }' >> build/process.json
+        node-version: 12
+    - run: npm ci
+    - run: npm run build
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
       with:
