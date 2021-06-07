@@ -1,0 +1,147 @@
+.col-1 {
+  width: 33.33%;
+  padding-left: 15px;
+  float: left;
+}
+.col-2 {
+  width: 66.66%;
+  float: left;
+}
+
+.title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  /* identical to box height */
+
+  color: #222222;
+}
+.info {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #616161;
+  margin-bottom: 15px;
+}
+.key-value {
+  margin-left: 20px;
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #333;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.info span {
+  margin-right: 20px;
+}
+.info span svg {
+  position: relative;
+  top: 2px;
+}
+.amen span {
+  margin-right: 100px;
+}
+.showMore {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+}
+
+.normal-text {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+}
+
+.third-title {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #333;
+}
+
+.title {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 17px;
+  color: #333;
+}
+
+.sub-title {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  color: #333;
+}
+
+.booking-card-head {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 31px;
+  color: #333;
+  text-align: center;
+}
+
+.booking-card-head-sub {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: .76rem;
+  line-height: 31px;
+  color: #333;
+  text-align: center;
+}
+
+.button-text {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 31px;
+}
+
+.normal-text-bold {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #616161;
+}
+.divider{
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  color: rgba(0, 0, 0, 0.65);;
+}
+.user-name {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #333;
+}

@@ -1,0 +1,15 @@
+.hero-experience {
+  margin-bottom: 50px;
+}
+.view-all{
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+@media (max-width: 550px) {
+  .view-all{
+    position: absolute;
+    top: 5px;
+    right: 18px;
+  }
+}

@@ -1,0 +1,36 @@
+.listing-header {
+  margin-top: 18px;
+}
+.listing-header img {
+  width: 48px;
+  height: 44px;
+}
+.listing-header span {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #313131;
+  margin-left: 20px;
+}
+.listing-divider {
+  margin: 18px 0px;
+  overflow: hidden;
+  display: block;
+}
+
+.listing-divider span:nth-child(1) {
+  display: block;
+  background: #ff6304;
+  height: 6px;
+  float: left;
+  border-radius: 10px 0px 0px 10px;
+}
+.listing-divider span:nth-child(2) {
+  background: #e4e4e4;
+  display: block;
+  height: 6px;
+  float: left;
+  border-radius: 0px 10px 10px 0px;
+}

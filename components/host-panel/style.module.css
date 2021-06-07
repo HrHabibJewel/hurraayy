@@ -1,0 +1,360 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+[data-theme="dark"] .site-layout-sub-header-background {
+  background: #141414;
+}
+
+.menubutton {
+  background: #FFFFFF;
+  background-color: #FFFFFF !important;
+  /* border: 0.15px solid #D9D9D9; */
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 600px !important;
+  color: #333;
+}
+.ant-menu-item-selected {
+  background-color: #FFFFFF;
+}
+
+.menubuttonList {
+  background: #FFFFFF !important;
+  /* border: 0.15px solid #D9D9D9; */
+  /* box-sizing: border-box; */
+  font-size: 14px;
+  font-weight: 400px;
+  overflow: visible !important;
+  line-height: 12px !important;
+  padding: 0px !important;
+}
+
+.menubuttonSelected {
+  background: #FFFFFF;
+  background-color: white;  
+  border: 0.15px solid #D9D9D9;
+  box-sizing: border-box;
+}
+
+.menuPanel {
+  height: 100% !important;
+  padding: 3%;
+}
+.menuArrow {
+  float: right;
+  
+}
+.cardstyle {
+  margin-top: 10px;
+  height: 40px;
+  background-color: #f3f3f3;
+}
+.reset-pass-cardstyle {
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 70px;
+  padding-bottom: 0px;
+}
+.account-title {
+  font-family: "Heebo";
+  font-size: 14px;
+  font-weight: 600px;
+  color: #333;
+}
+.account-value {
+  font-family: "Heebo";
+  font-size: 14px;
+  color: #333;
+}
+
+@media screen and (max-width:770px){
+  .reset-pass-cardstyle {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 70px;
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .cardstyle {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #f3f3f3;
+    }
+    .hostMainMenu1 {
+      width: 100%;
+      
+    }
+    .account-value {
+      font-family: "Heebo";
+      font-size: 14px;
+      color: #333;
+      width: 10;
+    }
+    
+}
+@media screen and (max-width: 580px) {
+  .cardstyle {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #f3f3f3;
+    };
+    
+  .hostMainMenu1 {
+      width: 100%;
+      
+    }
+    .account-value {
+      font-family: "Heebo";
+      font-size: 14px;
+      color: #333;
+      width: 10;
+    }
+}
+
+@media only screen and (max-width: 1118px) {
+  .cardstyle {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #f3f3f3;
+    };
+    
+    .hostMainMenu1 {
+      width: 100%;
+      
+    }
+    .account-value {
+      font-family: "Heebo";
+      font-size: 14px;
+      color: #333;
+      width: 10;
+    }
+}
+
+
+
+/* .menuArrow:hover {
+  background-color: #ff6204;
+} */
+
+.hostPanel {
+  font-family: Heebo;
+  font-style: normal;
+}
+
+.listings {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.headingText {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #333;
+}
+
+.hostMainMenu {
+  width: 16.6%;
+  height: 38px;
+  background: #FF6304;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 30px;
+  margin-right: 0.1vw;
+  color: #FFFFFF !important;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.hostMainMenu:hover{
+  background: #FF6304 !important;
+  color: #FFFFFF !important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.hostMainMenuDeactive {
+  width: 16.6%;
+  height: 38px;
+  background: #E8E8E8;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-right: 0.1vw;
+  line-height: 30px;
+  color: #9D9D9D;
+  padding: 5px;
+}
+.hostMainMenuDeactive:hover{
+  background: #FF6304 !important;
+  color: #FFFFFF !important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (max-width: 600px){
+  .hostMainMenuDeactive{
+    width:calc(100%/3);
+  }
+
+  .hostMainMenu{
+    width:calc(100%/3);
+  }
+}
+div.dataTable {
+  overflow: hidden;
+  background-color: #fafafa !important;
+}
+
+div.dataTable::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+div.dataTable::-webkit-scrollbar-track {
+  background: orange;
+  /* color of the tracking area */
+}
+
+div.dataTable::-webkit-scrollbar-thumb {
+  background-color: blue;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid orange;
+  /* creates padding around scroll thumb */
+}
+
+div.dataTable th {
+  /* text-align: center; */
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  height: 17px;
+  overflow: hidden !important;
+  font-size: 14px;
+ /* line-height: 29px; */
+
+}
+
+div.dataTable td,
+div.dataTable caption {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+
+.aboutTop {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../../public/images/Aboutustoppicture.png');
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.aboutHead {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4vw;
+  color: #FFFFFF;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutSlog {
+  font-family: Heebo !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  color: #FFFFFF;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutTitle {
+  font-family: Heebo !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+  color: #FF6304;
+}
+
+.aboutDescription {
+  font-family: Open Sans !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+.aboutSubTitle {
+  font-family: Heebo !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+
+  color: #FF6304;
+}
+
+.datePicker{
+  width: 100%;
+}
+
+.propertyCalender{
+  display: flex;
+  flex-direction:  column !important;
+}
+
+@media (max-width:800px) {
+  .datePicker{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /* .propertyCalender{
+    flex-direction:column-reverse !important;
+  } */
+}
+
+.svgcolor:hover{
+  fill:  #FF6304;
+}

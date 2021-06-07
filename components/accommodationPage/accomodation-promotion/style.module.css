@@ -1,0 +1,11 @@
+.img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .single-advanture-promotion p{
+    color: #333;
+    size: 1rem;
+    font-weight: 400;
+    font-family: Heebo
+  }

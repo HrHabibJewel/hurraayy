@@ -1,0 +1,31 @@
+.banner {
+  /* margin: 50px 7px 38px 7px; */
+  /* background-size: cover; */
+  background: url("../../../public/images/adventure_banner2.jpg") no-repeat center center fixed;
+  /* background-position: center; */
+  height: 500px;
+  background-color: #c4c4c4;
+  padding-top: 200px;
+  /* padding-left: 75px; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 1024px) {
+  .banner {
+    /* margin: 50px 7px 38px 7px; */
+    /* background-size: cover; */
+    background: url("../../../public/images/adventure_banner2.jpg") no-repeat center center fixed;
+    /* background-position: center; */
+    height: 500px;
+    background-color: #c4c4c4;
+    padding-top: 200px;
+    /* padding-left: 75px; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 110%;
+  }
+}

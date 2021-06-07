@@ -1,0 +1,113 @@
+.hostPanel {
+  font-family: Heebo;
+  font-style: normal;
+}
+
+.ProfileImage {
+  border-radius: 50% !important;
+  height: 10rem;
+  width: 10rem;
+  border: .5vw solid #F4F4F4;
+}
+
+.ImgaeInputBox {
+  position: absolute;
+  left: 50%;
+}
+
+.ImgaeInputInside {
+  margin-top: -3rem;
+  margin-left: 0rem;
+  position: absolute;
+  left: 3rem;
+}
+
+.FileInput {
+  display: none;
+}
+
+.Name {
+  padding-top: 2vh;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1vh;
+  color: #333
+}
+
+.TextButton {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: .875rem;
+  line-height: 2vh;
+  text-align: center;
+  padding-top: 1vh;
+  color: #FF6304;
+}
+
+.intorText {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2vh;
+  color: #333;
+}
+
+.EditButton {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: .875rem;
+  line-height: 2vh;
+  color: #FF6304;
+  float: right;
+}
+
+.cancleButton {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: .875rem;
+  line-height: 2vh;
+
+  color: #616161;
+}
+
+.headingText {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2vh;
+
+  color: #333;
+}
+
+.desText {
+  padding-top: .5vh;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 17px;
+  color: #333;
+}
+
+.padding{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width:600px) {
+  .padding{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}

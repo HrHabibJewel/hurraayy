@@ -1,0 +1,242 @@
+.col-1 {
+  width: 33.33%;
+  padding-left: 15px;
+  float: left;
+}
+
+.col-2 {
+  width: 66.66%;
+  float: left;
+}
+
+.title-head {
+  margin-bottom: 7px;
+}
+.titleDisplay{
+  display: none;
+}
+.displayTitle{
+  display: inline;
+}
+
+@media screen and (max-width: 600px){
+  .titleDisplay{
+    display:inline;
+  }
+  .displayTitle{
+    display: none;
+  }
+}
+.title {
+  /* text-transform: uppercase; */
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  height: 100%;
+  padding: 0;
+  line-height: 33px;
+  color: #333;
+  margin-left: 5px;
+  padding-left: .80rem !important;
+}
+
+.title-left {
+  margin-top: 5px;
+  width: 5px;
+  background: #FF6304;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 20px;
+  height: 18px;
+  margin-bottom: -2px;
+}
+
+.info {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #616161;
+  margin-bottom: 15px;
+}
+
+.info span {
+  margin-right: 20px;
+}
+
+.info span svg {
+  position: relative;
+  top: 2px;
+}
+
+.amen span {
+  margin-right: 100px;
+}
+
+.showMore {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #333;
+}
+
+.key-info-icon-text {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 31px;
+  color: #333;
+  margin-left: 10px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.key-info-left {
+  margin-left: 5px;
+}
+
+.single-key-info-card {
+  min-height: 92px;
+}
+
+.key-info-card {}
+
+.key-info-card::after {
+  position: absolute;
+  width: 60px;
+  height: 0px;
+  left: 144px;
+  top: 40px;
+  border: 1px solid #474646;
+  transform: rotate(90deg);
+}
+
+.ant-card-body {
+  color: red;
+}
+
+.key-value {
+  margin-left: 20px;
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.inclusive-icon {
+  width: 3px;
+  height: 14px;
+  background: #FF6304;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: -1px;
+}
+
+.normal-text {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+}
+
+.third-title {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.sub-title {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+  color: #333;
+}
+
+.booking-card-head {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 31px;
+  color: #333;
+  text-align: center;
+}
+
+.booking-card-head-sub {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: .76rem;
+  line-height: 31px;
+  color: #333;
+  text-align: center;
+}
+
+.button-text {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 31px;
+}
+.forgot-password-button-text {
+  font-family: 'Heebo' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 31px;
+}
+.normal-text-bold {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.moldal-title {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 17px;
+}
+
+.ant-modal-header {
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.65);
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 4px 4px 0 0;
+}
+.sliderimgheight{
+  height: 100%;
+  max-height: 100%;
+}
+.payment-card-properties{
+  padding-right: 20%;
+  padding-left: 20%;
+}
+@media (max-width:550px){
+  .payment-card-properties{
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}

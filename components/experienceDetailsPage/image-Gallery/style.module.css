@@ -1,0 +1,158 @@
+.large {
+  height: 80vh;
+  max-height: 600px;
+}
+
+.img {
+  /* width: 100%; */
+  background-size: cover;
+  overflow: hidden;
+}
+
+.small {
+  height: calc(40vh - 7.5px);
+}
+.imageRow{
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content:center;
+}
+
+.imageCol{
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .imageRow{
+    flex-flow: row wrap;
+  }
+  .imageCol{
+    width: 50%;
+  }
+  .small {
+    height: calc(20vh - 7.5px);
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .pe-none{
+    display: none !important;
+  }
+
+  .large {
+    height: 40vh;
+  }
+}
+
+.tags {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.tags a {
+  background: #ffffff;
+  border-radius: 6px;
+  font-family: 'Heebo', sans-serif !important;;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 35px;
+  color: #808080;
+  text-align: center;
+  box-shadow: 0px 0px 5px 1px #00000040;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+.img-container:hover .tags {
+  opacity: 1;
+}
+
+.tags.btm {
+  top: auto;
+  bottom: 0;
+  opacity: 1;
+}
+
+
+
+.pe-none {
+  pointer-events: none;
+}
+
+.pe-all {
+  pointer-events: all;
+}
+
+.slider-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  z-index: 9999;
+  padding: 5em 6em;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.slider-modal-close {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 40px;
+  top: 40px;
+  left: auto;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.thumbs.animated {
+  text-align: center;
+}
+
+.slider-modal .carousel-root {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.slider-modal .control-dots {
+  display: none;
+}
+
+.slider-modal .carousel-status {
+  display: none;
+}
+
+.slider-modal .slide {
+  max-height: 100%;
+  background-color: transparent;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.slider-modal .slide img {
+  border-radius: 30px;
+}
+
+.slider-modal .thumb img {
+  border-radius: 5px;
+}
+
+.slider-modal .thumb.selected,
+.slider-modal .thumb:hover,
+.slider-modal .thumb:focus {
+  border: none !important;
+  transition: border 0s;
+}

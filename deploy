@@ -1,0 +1,8 @@
+#!/bin/sh     
+ssh jenkins@35.185.104.160 <<EOF       
+ cd /var/www/html/hurraayy-webapp/
+   git pull origin master
+   npm install --production
+   pm2 restart all
+   exit
+EOF

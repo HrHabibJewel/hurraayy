@@ -1,0 +1,10 @@
+.img {
+  margin: 0 auto;
+  display: block;
+}
+
+.single-adventure-promotion p{
+ color: "#333";
+ font-family: "Heebo";
+ font-weight: 600;
+}

@@ -1,0 +1,17 @@
+.searchCon {
+  display: flex;
+  padding: 30px 0;
+}
+.searchCon .left {
+  width: 45%;
+}
+
+.searchCon .left button {
+  margin-right: 2rem;
+}
+.searchCon .right {
+  width: 55%;
+}
+.searchCon .right button {
+  margin-left: 3rem;
+}

@@ -1,0 +1,52 @@
+.avatar-title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: end;
+  color: #094553;
+  margin-top: 10px;
+}
+.ant-avatar {
+  height: auto !important;
+  width: 100%;
+  max-width: 90%;
+}
+
+@media (max-width: 1400px) {
+  .ant-avatar {
+    width: 195px !important;
+    height: 195px !important;
+    line-height: 195px !important;
+  }
+  .avatar-title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 17px;
+  }
+}
+@media (max-width: 800px) {
+  .ant-avatar {
+    width: 100px !important;
+    height: 100px !important;
+    line-height: 195px !important;
+  }
+  .avatar-title {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 425px) {
+  .ant-avatar {
+    width: 70px !important;
+    height: 70px !important;
+    line-height: 195px !important;
+  }
+  .avatar-title {
+    font-size: 14px;
+    line-height: 12px;
+    margin-top: 12px;
+  }
+}

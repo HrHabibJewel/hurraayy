@@ -1,0 +1,36 @@
+.guest-calc-drop {
+  position: absolute;
+  z-index: 9999;
+  border: 1px solid rgb(204, 204, 204);
+  background: white;
+  width: 100%;
+  top: 98%;
+  left: 0;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: Heebo;
+}
+
+.guest-calc-drop span {
+  font-family: Heebo;
+  font-size: 12px;
+ 
+}
+
+.normal-text {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.normal-text-bold {
+  font-family: 'Heebo', sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}

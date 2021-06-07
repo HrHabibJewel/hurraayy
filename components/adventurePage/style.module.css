@@ -1,0 +1,11 @@
+.list-style {
+  margin-left: -28px;
+  margin-top: -28px;
+}
+
+@media only screen and (max-width: 320px) {
+    .list-style {
+        margin-left: 28px;
+        /* margin-top: -28px; */
+      }
+  }

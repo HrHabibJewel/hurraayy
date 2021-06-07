@@ -1,0 +1,64 @@
+.experience-single-card .experience-image {
+  background-color: #f4f4f4;
+  border-radius: 18px;
+  height: 265px;
+  overflow: hidden;
+}
+.experience-single-card .experience-image img {
+  width: 100%;
+}
+.experience-info {
+  margin-top: 15px;
+  min-height: 120px;
+}
+.experience-info span.text {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #333;
+}
+
+
+.experience-info .number {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #222222;
+  float: right;
+  margin-right: 15px;
+}
+.experience-info .number i {
+  color: #ff6304;
+  margin-right: 10px;
+}
+.experience-info .price-city {
+  font-size: 16px;
+  line-height: 21px;
+  color: #808080;
+  margin-top: 3px;
+  font-family: Heebo;
+}
+
+.adv-info .price-city {
+}
+
+@media (max-width: 1400px) {
+  .experience-info span.text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .experience-info .price-city {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 7px;
+    font-family: Heebo;
+  }
+  .adv-info .price-city {
+    font-size: 14px;
+  }
+}

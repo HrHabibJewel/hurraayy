@@ -1,0 +1,105 @@
+.accommodation-single-card {
+  /* width: 420px;
+  height: 380px; */
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.accommodation-single-card .accommodation-image {
+  /* width: 420px;
+  height: 260px; */
+  height: 204px;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  border-radius: 18px 18px 0px 0px;
+  background-size: cover;
+  background-position: center;
+}
+.accommodation-single-card .accommodation-image img {
+  width: 100%;
+}
+.accommodation-single-card .accommodation-info {
+  padding: 10px;
+  height: 95px;
+}
+.accommodation-info button {
+  padding: 5px 10px;
+  width: 89px;
+  height: 30px;
+
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.accommodation-info button span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.accommodation-info .text {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #616161;
+  padding-left: 5px;
+}
+.accommodation-info .title {
+  font-family: Heebo, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  margin-top: 10px;
+  color: #2e3d58;
+}
+.accommodation-info .number {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #222222;
+  float: right;
+}
+.accommodation-info .number i {
+  color: #ff6304;
+  margin-right: 10px;
+}
+.price {
+  font-family: Heebo;
+
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 5px;
+
+  color: #616161;
+}
+
+.accommodation-info .label {
+  font-family: Heebo;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+  line-height: 20px;
+}
+
+@media (max-width: 1400px) {
+  .price {
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}

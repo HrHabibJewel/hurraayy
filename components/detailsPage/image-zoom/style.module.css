@@ -1,0 +1,37 @@
+.zoom_con {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.zoom_con .img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+}
+
+.zoom_con:hover,
+.zoom_con:active {
+  cursor: crosshair;
+  display: block;
+}
+
+.zoom_con:hover .zoom,
+.zoom_con:active .zoom {
+  opacity: 1;
+}
+.zoom {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  /* border: 1px solid whitesmoke; */
+  z-index: 99;
+  border-radius: 100%;
+  display: block;
+  transition: opacity 0.2s;
+}
